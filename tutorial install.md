@@ -32,25 +32,31 @@
 
 - Boot ke USB bootable arch linux
 - Sambungkan ke Internet via
-  ‎```‎
+
+  ```bash
   iwctl
-  ‎```‎
+  ```
+
 - setelah itu cek wifi card dan sambungkan ke jaringan wifi
 
-  ‎```‎
+  ```bash
   station list
-‎  ```
+  ```
 
-‎  ```‎
-‎  station wlan0 connect NAMA_WIFI
-‎  ```‎
+   ```bash
+   station wlan0 connect NAMA-WIFI
+   ```
 
-  Masukkan password wifi
+  Masukkan password wifi, exit dan tes jaringan
 
-  <img width="3072" height="4080" alt="IMG_20260517_205111 1" src="https://github.com/user-attachments/assets/94b4e92e-670d-47e0-8678-f8598d4bd806" />
-
-Setelah itu ketikan
-
-‎  ```‎
+  ```bash
   exit
-  ‎```‎
+  ```
+
+  ```bash
+  ping 8.8.8.8
+  ```
+
+
+
+<img width="3072" height="4080" alt="IMG_20260517_205155" src="https://github.com/user-attachments/assets/16fe5dec-2ff2-4561-95f1-4aef3a574cd2" />
