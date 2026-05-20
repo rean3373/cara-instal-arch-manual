@@ -10,7 +10,7 @@
 
 - Aplikasi rufus
 
-## Lamgkah-langkah
+## Langkah-langkah
 
 - Install fie iso arch linux dari website resmi dan rufus
 
@@ -22,7 +22,7 @@
 
    <img width="474" height="580" alt="rufus-arch-linux-screenshot-01" src="https://github.com/user-attachments/assets/1f944625-aa63-4850-8a0a-7d1b57b5fce3" />
 
-- Jangan lupa sesuaikan partition scheme dari storage yang digunakan via disk management. Caranya liat di web https://www.bagitekno.net/windows/cek-hardisk-gpt-atau-mbr.html
+- Sesuaikan partition scheme dari storage yang digunakan via disk management. Caranya liat di web https://www.bagitekno.net/windows/cek-hardisk-gpt-atau-mbr.html
 
   <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/323f0109-c284-42d7-aab9-259ffe4dc46a" />
 
