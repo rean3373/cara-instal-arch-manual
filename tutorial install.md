@@ -26,4 +26,31 @@
 
   <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/323f0109-c284-42d7-aab9-259ffe4dc46a" />
 
-  
+- Masuk ke mode BIOS dan matikan secure boot, susun boot priority dan exit and save changes
+
+<img width="236" height="180" alt="download" src="https://github.com/user-attachments/assets/c2dcf7e9-1d2a-41b3-9eea-6bb9abf3b668" />
+
+- Boot ke USB bootable arch linux
+- Sambungkan ke Internet via
+  ‎```‎
+  iwctl
+  ‎```‎
+- setelah itu cek wifi card dan sambungkan ke jaringan wifi
+
+  ‎```‎
+  station list
+‎  ```
+
+‎  ```‎
+‎  station wlan0 connect NAMA_WIFI
+‎  ```‎
+
+  Masukkan password wifi
+
+  <img width="3072" height="4080" alt="IMG_20260517_205111 1" src="https://github.com/user-attachments/assets/94b4e92e-670d-47e0-8678-f8598d4bd806" />
+
+Setelah itu ketikan
+
+‎  ```‎
+  exit
+  ‎```‎
