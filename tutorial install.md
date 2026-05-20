@@ -67,4 +67,4 @@
   timedatectl
   ```
 
-![Uploading IMG_20260517_205430.jpg…]()
+ <img width="3072" height="4080" alt="IMG_20260517_205430" src="https://github.com/user-attachments/assets/66d2f0bf-e911-4e0f-a472-71c2e90a3057" />
