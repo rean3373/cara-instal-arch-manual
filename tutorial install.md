@@ -28,7 +28,7 @@
 
 - Masuk ke mode BIOS dan matikan secure boot, susun boot priority dan exit and save changes
 
-<img width="236" height="180" alt="download" src="https://github.com/user-attachments/assets/c2dcf7e9-1d2a-41b3-9eea-6bb9abf3b668" />
+  <img width="236" height="180" alt="download" src="https://github.com/user-attachments/assets/c2dcf7e9-1d2a-41b3-9eea-6bb9abf3b668" />
 
 - Boot ke USB bootable arch linux
 - Sambungkan ke Internet via
@@ -47,7 +47,7 @@
    station wlan0 connect NAMA-WIFI
    ```
 
-  Masukkan password wifi, exit dan tes jaringan
+ - Masukkan password wifi, exit dan tes jaringan
 
   ```bash
   exit
@@ -57,6 +57,14 @@
   ping 8.8.8.8
   ```
 
+  - Selelah itu ctrl+C
 
+  <img width="3072" height="4080" alt="IMG_20260517_205155" src="https://github.com/user-attachments/assets/16fe5dec-2ff2-4561-95f1-4aef3a574cd2" />
 
-<img width="3072" height="4080" alt="IMG_20260517_205155" src="https://github.com/user-attachments/assets/16fe5dec-2ff2-4561-95f1-4aef3a574cd2" />
+## Sinkronisasi waktu
+
+  ```bash
+  timedatectl
+  ```
+
+![Uploading IMG_20260517_205430.jpg…]()
