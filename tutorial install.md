@@ -270,7 +270,7 @@ passwd
     ```
     
   - Cari baris berikut:
-    # %wheel ALL=(ALL:ALL) ALL
+    %wheel ALL=(ALL:ALL) ALL
 
   - Hapus tanda pagar (#) di depan %wheel sehingga menjadi:
     %wheel ALL=(ALL:ALL) ALL
