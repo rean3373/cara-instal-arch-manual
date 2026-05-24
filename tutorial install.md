@@ -174,7 +174,7 @@ Partisi harus dipasang (mount) sebelum sistem diinstal.
 # Instalasi Sistem Dasar dan desktop environment
 
 ```bash
-pacstrap -K /mnt base linux linux-firmware nano networkmanager grub efibootmgr os-prober xorg plasma-desktop sddm konsole dolphin
+pacstrap -K /mnt base linux linux-firmware sudo nano networkmanager grub efibootmgr os-prober xorg plasma-desktop sddm konsole dolphin pipewire pipewire-alsa pipewire-pulse pipewire-jack
 ```
 
 # Membuat fstab
@@ -320,3 +320,11 @@ reboot
 ```
 
 # Selesai
+
+# Sumber referensi
+
+https://github.com/worker-sentinel/ghirlandaio/blob/main/2024/module/module-1.md
+
+https://github.com/worker-sentinel/ghirlandaio/blob/main/2024/class-c/kelompok/Kelompok-5_4C/dokumentasi.md
+
+
