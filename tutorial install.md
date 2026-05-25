@@ -113,7 +113,7 @@ Gunakan key anak panah kanan & kiri untuk bernavigasi (bergerak ke kanan dan kir
   # Format Partisi
 
 ```bash
-mkfs.ext4 /dev/sda6
+mkfs.ext4 /dev/partisi_root
 ```
 
 ### Penjelasan
@@ -124,13 +124,13 @@ Membuat filesystem ext4 pada partisi root.
 ## Membuat Swap
 
 ```bash
-mkswap /dev/sda5
+mkswap /dev/partisi_swap
 ```
 
 Aktifkan swap:
 
 ```bash
-swapon /dev/sda5
+swapon /dev/partisi_swap
 ```
 
 ### Penjelasan
@@ -141,7 +141,7 @@ Swap digunakan sebagai memori cadangan ketika RAM penuh.
 ## Format EFI Partition
 
 ```bash
-mkfs.fat -F 32 /dev/sda4
+mkfs.fat -F 32 /dev/partisi_boot
 ```
 
 ### Penjelasan
@@ -154,13 +154,13 @@ EFI partition harus menggunakan FAT32.
 Mount root:
 
 ```bash
-mount /dev/sda6 /mnt
+mount /dev/partisi_root /mnt
 ```
 
 Mount EFI:
 
 ```bash
-mount --mkdir /dev/sda4 /mnt/boot
+mount --mkdir /dev/partisi_boot /mnt/boot
 ```
 
 ### Penjelasan
