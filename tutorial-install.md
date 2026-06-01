@@ -235,7 +235,7 @@ lsblk
 Pada tahap ini kita akan melakukan bootstrap pada mesin kita dan disini kita akan menginstall base system seperti tool-chain, kernel, dan lainnya.
 
 ```bash
-pacstrap -K /mnt base linux linux-firmware base-devel sof-firmware grub efibootmgr networkmanager vim os-prober plasma-desktop sddm
+pacstrap -K /mnt base linux linux-firmware base-devel sof-firmware grub efibootmgr networkmanager vim os-prober plasma-desktop sddm pipewire dolphin kitty
 ```
 
 > [!NOTE]
